@@ -37,7 +37,7 @@ console.log(c)
 console.log(d)
 
 
-console.log(typeof(undefined))
+console.log(typeof(a))
 console.log(typeof(b))
 console.log(typeof(c))
 console.log(typeof(d))
