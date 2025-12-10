@@ -30,3 +30,12 @@ for(a=0; a<arr.length; a++){
 console.log(arr.includes("Mango"))
 
 console.log(arr.indexOf("Pineapple"))
+
+
+let number = [2, 7,3,9,4, 6,213412,353, 345]
+
+let newNum = number.filter((n)=> n%2 != 0)
+
+console.log(newNum)
+
+// array.reduce((accumulator, currentValue)=>{...}, initialValue)
