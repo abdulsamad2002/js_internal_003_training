@@ -26,18 +26,27 @@
 // console.log(typeof(b))
 
 
-let a = "abc"
-let b =""
-let c = null
-let d
+// let a = "abc"
+// let b =""
+// let c = null
+// let d
 
-console.log(a)
-console.log(b)
-console.log(c)
-console.log(d)
+// console.log(a)
+// console.log(b)
+// console.log(c)
+// console.log(d)
+
+// console.log(typeof(a))
+// console.log(typeof(b))
+// console.log(typeof(c))
+// console.log(typeof(d))
+
+let score = "33abc"
+console.log(typeof score)
+console.log(typeof(score))
+
+let newScore = Number(score)
+console.log(typeof(newScore))
+console.log(newScore)
 
 
-console.log(typeof(a))
-console.log(typeof(b))
-console.log(typeof(c))
-console.log(typeof(d))
