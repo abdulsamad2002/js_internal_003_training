@@ -64,5 +64,3 @@ const newArr = arr.reduce((sum, value)=>{
 })
 
 console.log(newArr)
-
-
