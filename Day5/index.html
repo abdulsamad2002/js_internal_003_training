@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="" id="form1">
+      <input id="username" type="text" placeholder="enter your username pls" />
+      <input
+        id="password"
+        type="password"
+        placeholder="enter you password pls"
+      />
+      <button>Login</button>
+    </form>
+    <script>
+      const username = document.getElementById("username").value;
+      const password = document.getElementById("password").value; 
+      const form1 = document.getElementById("form1");
+      form1.addEventListener("submit", (e) => {
+        e.preventDefault();
+        console.log(username.value);
+        console.log(password.value);
+      });
+    </script>
+  </body>
+  <script>
+    // function submit(){
+    //     obj.username = document.getElementById("username").value
+    //     obj.password = document.getElementById("password").value
+    //     console.log(username)
+    //     console.log(password)
+    // }
+    // const h1 = document.querySelector("h1")
+    // const h2 = document.querySelector("h2")
+    // const button = document.getElementById("button")
+    // button.addEventListener("click", ()=>{
+    //     h1.style.color = "red"
+    //     h2.style.color = "blue"
+    // })
+    // const button2 = document.getElementById("button2")
+    // const button3 = document.getElementById("button3")
+    // button2.addEventListener("click", ()=>{
+    //     h1.style.color = "blue"
+    //     h2.style.color = "yellow"
+    // })
+    // button3.addEventListener("click", ()=>{
+    //     h1.style.color = "brown"
+    //     h2.style.color = "green"
+    // })
+    // function fun(){
+    //     h1.innerHTML = "John"
+    //     h2.innerHTML = "Wick"
+    // }
+  </script>
+</html>
